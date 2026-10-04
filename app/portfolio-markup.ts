@@ -135,6 +135,7 @@ export const portfolioMarkup = `
       <div class="card step"><em>Jul 2026</em><b>Started building companies</b><span>Vraelis in July, Overlym in August, and Foremake to hold them in September.</span></div>
       <div class="card step"><em>Aug 28, 2026</em><b>YC declined an interview</b><span>My Fall 2026 application with Vraelis was not selected for an interview. I kept building, with a clearer reason for the work.</span></div>
     </div>
+    <a class="evidence evidence-email r" href="/evidence/yc-email.webp" target="_blank" rel="noopener" aria-label="Open the original YC application email"><img src="/evidence/yc-email.webp" alt="Y Combinator email saying Nishanth’s startup was not selected for an interview, August 28, 2026" width="1707" height="467" loading="lazy" decoding="async"></a>
   </div>
 </section>
 
@@ -145,7 +146,6 @@ export const portfolioMarkup = `
     <p class="body r">I was born in Mountain View in October 2010. My mom came to the US in 2003 for a master’s in computer science, and my dad followed for work. I grew up in Northern California and live in Folsom now.</p>
     <p class="body r">I’m a sophomore at Vista del Lago High School, class of 2029, taking pre-calculus and honors chemistry while running Foremake.</p>
     <p class="body r">I came to Roblox as a player and I still play more than I build. Away from the keyboard, it’s time with friends.</p>
-    <a class="evidence evidence-transcript r" href="/evidence/transcript.webp" target="_blank" rel="noopener" aria-label="Open unofficial school transcript with personal details redacted"><img src="/evidence/transcript.webp" alt="Unofficial Vista del Lago High School transcript dated October 4, 2026, with student identifiers and family contact details redacted" width="1290" height="1402" loading="lazy" decoding="async"></a>
   </div>
 
   <div class="slide">
