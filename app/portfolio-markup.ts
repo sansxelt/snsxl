@@ -132,7 +132,7 @@ export const portfolioMarkup = `
     <div class="steps rail three r">
       <div class="card step"><em>2025</em><b>From games to safety</b><span>Started protecting players, not just building games: child safety from January, then the anti-cheat from October.</span></div>
       <div class="card step"><em>Jul 2026</em><b>Started building companies</b><span>Vraelis in July, Overlym in August, and Foremake to hold them in September.</span></div>
-      <div class="card step"><em>Aug 2026</em><b>Rejected by YC</b><span>Applied to YC’s Fall 2026 batch with Vraelis and was rejected. It taught me to build for a reason, rather than to prove something.</span></div>
+      <div class="card step"><em>Aug 28, 2026</em><b>YC declined an interview</b><span>My Fall 2026 application with Vraelis was not selected for an interview. I kept building, with a clearer reason for the work.</span></div>
     </div>
   </div>
 </section>
@@ -147,14 +147,11 @@ export const portfolioMarkup = `
   </div>
 
   <div class="slide">
-    <p class="kicker r">The thread</p>
-    <div class="questions r">
-      <p>Is this player who they claim to be?</p>
-      <p>Should this account be anywhere near kids?</p>
-      <p>Does this software do what its builder says?</p>
-      <p>Did the work behind a decision actually get done?</p>
-    </div>
-    <p class="body r">Across games, security and the companies I’m building now, I keep coming back to whether a system does what it should. Getting rejected from YC’s Fall 2026 batch made me think harder about why I build.</p>
+    <p class="kicker r">Still building</p>
+    <h3 class="statement r">Accounts can disappear. <span class="glow">I keep building.</span></h3>
+    <p class="body r">In 2024, my Roblox account was deleted along with my portfolio. I rebuilt it, and that same week I was already planning Scraplings.</p>
+    <p class="body r">More recently, my LinkedIn account was suspended at 15. I’m appealing. On August 28, 2026, YC told me my startup had not been selected for an interview.</p>
+    <p class="body strong r">I keep building through each setback. My age doesn’t change that.</p>
   </div>
 
   <div class="slide center">
