@@ -23,7 +23,7 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Foremake, Inc.</p>
     <h3 class="statement r">Building Foremake, <span class="dim">the company behind Vraelis and Overlym.</span></h3>
-    <p class="body r">Before Foremake, the company was called Zarkyr, with multiple people involved. Foremake now has two people. I’m its sole founder and do the building.</p>
+    <p class="body r">Before Foremake, the company was called Zarkyr, with multiple people involved. Foremake now has two people. I’m its sole founder and owner, and I lead product development and day-to-day operations.</p>
     <div class="cards three r">
       <div class="card"><b>Founder and CEO</b><span>Foremake, Inc., since September 2026</span></div>
       <div class="card"><b>No outside capital</b><span>Built using earnings from my earlier work.</span></div>
