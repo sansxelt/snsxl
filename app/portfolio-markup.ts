@@ -68,7 +68,7 @@ export const portfolioMarkup = `
     <p class="big-num visits r" data-to="11700000000" aria-label="11.7 billion">11B+</p>
     <p class="big-caption r">lifetime visits across games I’ve built and contributed to.</p>
     <p class="fine r">Total visits, including repeat visits from returning players.</p>
-    <div class="proof-links r"><a class="go verified" href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3-3.2-.1L12 22.2l-2.6-1.9-3.2.1-1-3-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3 3.2.1z"></path><path d="M8.2 12.3l2.5 2.5 5.1-5.3" fill="none" stroke="#0b0d12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>Roblox portfolio ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer" aria-describedby="linkedin-note">LinkedIn (restricted) ↗</a></div>
+    <div class="proof-links r"><a class="go verified" href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3-3.2-.1L12 22.2l-2.6-1.9-3.2.1-1-3-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3 3.2.1z"></path><path d="M8.2 12.3l2.5 2.5 5.1-5.3" fill="none" stroke="#0b0d12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>Roblox portfolio ↗</a></div>
   </div>
 
   <div class="slide">
@@ -121,9 +121,9 @@ export const portfolioMarkup = `
   </div>
 
   <div class="slide center">
-    <p class="kicker r">July 2025, age 14</p>
+    <p class="kicker r">July 18, 2025, age 14</p>
     <h3 class="statement r">Stanford gave me <span class="glow">full tuition aid</span> while I was still in middle school.</h3>
-    <p class="body r">I applied to the Stanford Pre-Collegiate Summer Institutes before starting high school and completed the Product Design institute.</p>
+    <p class="body r">I completed Product Design through Stanford Pre-Collegiate Summer Institutes on July 18, 2025, before starting high school.</p>
     <div class="proof-links r"><a class="go" href="https://summerinstitutes.spcs.stanford.edu/" target="_blank" rel="noopener noreferrer">Stanford Pre-Collegiate Summer Institutes ↗</a></div>
   </div>
 
@@ -167,8 +167,7 @@ export const portfolioMarkup = `
   <div class="slide center last">
     <h3 class="quote r">Get in touch.</h3>
     <a class="contact-mail r" href="mailto:nishanth@foremake.com">nishanth@foremake.com</a>
-    <p class="fine r" id="linkedin-note">My LinkedIn account is currently restricted, and I’m appealing. Email is the best way to reach me.</p>
-    <div class="links r"><a href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer" aria-describedby="linkedin-note">LinkedIn (restricted) ↗</a><a href="https://github.com/sansxelt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/fwnishy" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox ↗</a><a href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a></div>
+    <div class="links r"><a href="https://github.com/sansxelt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/fwnishy" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox ↗</a><a href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a></div>
   </div>
 </section>
 </main>
