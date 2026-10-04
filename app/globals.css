@@ -1,3 +1,13 @@
 @import "./portfolio.css";
 :root { --font-sans: "DM Sans", "DM Sans Fallback", sans-serif; }
 @media(max-width:600px) { .hud { display:none; } }
+.evidence { display:block; width:100%; max-width:680px; margin:30px 0 0; border-radius:14px; overflow:hidden; border:1px solid rgba(255,255,255,.14); background:#fff; }
+.evidence img { display:block; width:100%; height:auto; object-fit:contain; }
+.evidence:focus-visible { outline:3px solid #a2baff; outline-offset:5px; }
+.evidence-certificate { max-width:540px; }
+.center .evidence { margin-left:auto; margin-right:auto; }
+.evidence-transcript { max-width:440px; }
+.evidence-history { margin:30px 0 0; }
+.evidence-profile { max-width:260px; margin-top:0; background:#1d2226; }
+.evidence-history figcaption { margin-top:12px; font-size:14px; color:#b9c0cf; }
+@media(max-width:600px) { .evidence { margin-top:24px; } .evidence-profile { max-width:230px; } }

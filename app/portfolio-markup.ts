@@ -124,6 +124,7 @@ export const portfolioMarkup = `
     <p class="kicker r">July 18, 2025, age 14</p>
     <h3 class="statement r">Stanford gave me <span class="glow">full tuition aid</span> while I was still in middle school.</h3>
     <p class="body r">I completed Product Design through Stanford Pre-Collegiate Summer Institutes on July 18, 2025, before starting high school.</p>
+    <a class="evidence evidence-certificate r" href="/evidence/stanford.webp" target="_blank" rel="noopener" aria-label="Open Stanford completion certificate"><img src="/evidence/stanford.webp" alt="Nishanth Dasari’s Stanford Pre-Collegiate Product Design completion certificate, dated July 18, 2025" width="1209" height="925" loading="lazy" decoding="async"></a>
     <div class="proof-links r"><a class="go" href="https://summerinstitutes.spcs.stanford.edu/" target="_blank" rel="noopener noreferrer">Stanford Pre-Collegiate Summer Institutes ↗</a></div>
   </div>
 
@@ -144,6 +145,7 @@ export const portfolioMarkup = `
     <p class="body r">I was born in Mountain View in October 2010. My mom came to the US in 2003 for a master’s in computer science, and my dad followed for work. I grew up in Northern California and live in Folsom now.</p>
     <p class="body r">I’m a sophomore at Vista del Lago High School, class of 2029, taking pre-calculus and honors chemistry while running Foremake.</p>
     <p class="body r">I came to Roblox as a player and I still play more than I build. Away from the keyboard, it’s time with friends.</p>
+    <a class="evidence evidence-transcript r" href="/evidence/transcript.webp" target="_blank" rel="noopener" aria-label="Open unofficial school transcript with personal details redacted"><img src="/evidence/transcript.webp" alt="Unofficial Vista del Lago High School transcript dated October 4, 2026, with student identifiers and family contact details redacted" width="1290" height="1402" loading="lazy" decoding="async"></a>
   </div>
 
   <div class="slide">
@@ -152,6 +154,7 @@ export const portfolioMarkup = `
     <p class="body r">In 2024, my Roblox account was deleted along with my portfolio. I rebuilt it, and that same week I was already planning Scraplings.</p>
     <p class="body r">More recently, my LinkedIn account was suspended at 15. I’m appealing. On August 28, 2026, YC told me my startup had not been selected for an interview.</p>
     <p class="body strong r">I keep building through each setback. My age doesn’t change that.</p>
+    <figure class="evidence-history r"><a class="evidence evidence-profile" href="/evidence/linkedin-summer-2026.webp" target="_blank" rel="noopener" aria-label="Open historical LinkedIn profile screenshot"><img src="/evidence/linkedin-summer-2026.webp" alt="Nishanth’s last known LinkedIn profile screenshot from summer 2026, before the suspension" width="1290" height="2796" loading="lazy" decoding="async"></a><figcaption>Summer 2026, before the suspension.</figcaption></figure>
   </div>
 
   <div class="slide center">
