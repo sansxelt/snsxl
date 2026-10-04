@@ -39,8 +39,7 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Vraelis, founded July 2026, built solo</p>
     <h3 class="statement r">Know your systems <span class="glow">work.</span></h3>
-    <p class="body r">I built Vraelis to check whether software behaves as intended, with a growing focus on defense technology. Today, it runs real browser checks against live apps and control panels, including simulated mission consoles. Each check returns Verified, Failed or Blocked, with recorded evidence.</p>
-    <div class="chips r"><span class="chip ok">Verified</span><span class="chip bad">Failed</span><span class="chip warn">Blocked</span></div>
+    <p class="body r">I built Vraelis to check whether software behaves as intended, with a growing focus on defense technology. Today, it runs real browser checks against live apps and control panels, including simulated mission consoles. Each check records what happened and shows whether the software behaved as intended.</p>
     <div class="cards two r">
       <div class="card partner"><small>Official partner</small><b>Reddit</b></div>
       <div class="card partner"><small>Official partner</small><b>ByteDance</b><span>the company behind TikTok</span></div>
