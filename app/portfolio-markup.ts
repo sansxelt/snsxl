@@ -153,9 +153,9 @@ export const portfolioMarkup = `
     <p class="kicker r">Still building</p>
     <h3 class="statement r">Accounts can disappear. <span class="glow">I keep building.</span></h3>
     <p class="body r">In 2024, my Roblox account was deleted along with my portfolio. I rebuilt it, and that same week I was already planning Scraplings.</p>
-    <p class="body r">More recently, my LinkedIn account was suspended at 15. I’m appealing. On August 28, 2026, YC told me my startup had not been selected for an interview.</p>
+    <p class="body r">My LinkedIn account was suspended at 15. It’s now restored, and <a href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">my profile is back online</a>. On August 28, 2026, YC told me my startup had not been selected for an interview.</p>
     <p class="body strong r">I keep building through each setback. My age doesn’t change that.</p>
-    <figure class="evidence-history r"><a class="evidence evidence-profile" href="/evidence/linkedin-summer-2026.webp" target="_blank" rel="noopener" aria-label="Open historical LinkedIn profile screenshot"><img src="/evidence/linkedin-summer-2026.webp" alt="Older LinkedIn profile from summer 2026, when the company was called Zarkyr, before Foremake and the suspension" width="1290" height="2796" loading="lazy" decoding="async"></a><figcaption>Older profile, summer 2026. Zarkyr was an earlier name, before Foremake and the suspension.</figcaption></figure>
+    <figure class="evidence-history r"><a class="evidence evidence-profile" href="/evidence/linkedin-summer-2026.webp" target="_blank" rel="noopener" aria-label="Open historical LinkedIn profile screenshot"><img src="/evidence/linkedin-summer-2026.webp" alt="Older LinkedIn profile from summer 2026, when the company was called Zarkyr, before Foremake" width="1290" height="2796" loading="lazy" decoding="async"></a><figcaption>Older profile, summer 2026. Zarkyr was an earlier name, before Foremake.</figcaption></figure>
   </div>
 
   <div class="slide center">
@@ -168,7 +168,7 @@ export const portfolioMarkup = `
   <div class="slide center last">
     <h3 class="quote r">Get in touch.</h3>
     <a class="contact-mail r" href="mailto:nishanth@foremake.com">nishanth@foremake.com</a>
-    <div class="links r"><a href="https://github.com/sansxelt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/fwnishy" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox ↗</a><a href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a></div>
+    <div class="links r"><a href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/sansxelt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/fwnishy" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox ↗</a><a href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a></div>
   </div>
 </section>
 </main>
