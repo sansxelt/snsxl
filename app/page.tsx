@@ -15,7 +15,7 @@ async function isAuthorized() {
 export async function generateMetadata(): Promise<Metadata> {
   return await isAuthorized()
     ? { title: "Nishanth Dasari | Portfolio", description: "Founder of Foremake, the company behind Vraelis and Overlym." }
-    : { title: "Locked" };
+    : { title: "Nishanth Dasari | Private portfolio", description: "Nishanth Dasari’s personal portfolio. Access is shared privately with professional contacts and reviewers." };
 }
 
 function ageLine(now = new Date()) {
@@ -23,7 +23,7 @@ function ageLine(now = new Date()) {
   const value = (key: string) => Number(parts.find(p => p.type === key)?.value);
   const birthdayPassed = value("month") > 10 || (value("month") === 10 && value("day") >= 21);
   const age = value("year") - 2010 - (birthdayPassed ? 0 : 1);
-  return age < 16 ? "I turn 16 this October." : `I’m ${age}.`;
+  return `I’m ${age}.`;
 }
 
 export default async function Home() {

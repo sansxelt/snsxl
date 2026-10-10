@@ -149,9 +149,9 @@ export const portfolioMarkup = `
   </div>
 
   <div class="slide center">
-    <p class="kicker r">Applying to HAA, 2027</p>
+    <p class="kicker r">What’s next</p>
     <h3 class="statement r">Already building. <span class="glow">Ready to go further.</span></h3>
-    <p class="body r">At Horowitz Andreessen Academy, I want to build Foremake alongside serious builders and learn from founders who’ve done it before.</p>
+    <p class="body r">I want to keep building Foremake alongside serious builders and learn from founders who’ve done it before.</p>
     <p class="body strong r">I’ve started. Now I want people who will push me further.</p>
   </div>
 
