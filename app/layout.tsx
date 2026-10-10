@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Locked",
+  title: "snsxl.com | Locked",
   robots: { index: false, follow: false },
 };
 

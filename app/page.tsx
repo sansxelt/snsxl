@@ -15,7 +15,7 @@ async function isAuthorized() {
 export async function generateMetadata(): Promise<Metadata> {
   return await isAuthorized()
     ? { title: "Nishanth Dasari | Portfolio", description: "Founder of Foremake, the company behind Vraelis and Overlym." }
-    : { title: "Nishanth Dasari | Private portfolio", description: "Nishanth Dasari’s personal portfolio. Access is shared privately with professional contacts and reviewers." };
+    : { title: "snsxl.com | Locked", description: "Private portfolio. Access is shared privately with professional contacts and reviewers." };
 }
 
 function ageLine(now = new Date()) {
