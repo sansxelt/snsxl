@@ -60,6 +60,7 @@ export default function AccessGate() {
         <span className="gate-box" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
         <span>I understand this applicant has not yet finished high school or an equivalent.</span>
       </label>
+      <p className="gate-context">This is my personal portfolio, shared with academy reviewers and professional contacts. Access is restricted because of my public online presence. LinkedIn contacts and official reviewers can request access through <a href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
       <p className="gate-status" id="access-status" role="status">{status}</p>
     </form>
   </main>;
