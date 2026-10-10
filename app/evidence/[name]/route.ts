@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { cookies } from "next/headers";
 import { COOKIE_NAME, verifyAccessToken } from "../../../lib/auth";
 
-const files = new Set(["stanford.webp", "linkedin-summer-2026.webp", "yc-email.webp"]);
+const files = new Set(["stanford.webp", "linkedin-summer-2026.webp", "linkedin-october-2026.webp", "yc-email.webp"]);
 export const runtime = "nodejs";
 
 export async function GET(_request: Request, { params }: { params: Promise<{ name: string }> }) {

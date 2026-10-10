@@ -8,6 +8,6 @@
 .center .evidence { margin-left:auto; margin-right:auto; }
 .evidence-email { max-width:100%; }
 .evidence-history { margin:30px 0 0; }
-.evidence-profile { max-width:260px; margin-top:0; background:#1d2226; }
+.evidence-profile { max-width:680px; margin-top:0; background:#1d2226; }
 .evidence-history figcaption { margin-top:12px; font-size:14px; color:#b9c0cf; }
-@media(max-width:600px) { .evidence { margin-top:24px; } .evidence-profile { max-width:230px; } }
+@media(max-width:600px) { .evidence { margin-top:24px; } .evidence-profile { max-width:100%; margin-top:0; } }
