@@ -23,7 +23,7 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Foremake, Inc.</p>
     <h3 class="statement r">Foremake. <span class="dim">A holding company.</span></h3>
-    <p class="body r">I founded and own Foremake, funded by my earlier work. I lead product development and daily operations, and build Vraelis solo. Previously named Zarkyr.</p>
+    <p class="body r">I am the sole founder and owner of Foremake, funded by my earlier work. I lead product development and daily operations across Foremake, Vraelis and Overlym. Previously named Zarkyr.</p>
     <div class="cards two r">
       <div class="card partner"><small>Attended, 2026</small><b>Supabase Select</b></div>
       <div class="card partner"><small>Invited, 2026</small><b>Cloudflare Connect</b></div>

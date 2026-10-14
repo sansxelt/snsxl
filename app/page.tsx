@@ -14,7 +14,7 @@ async function isAuthorized() {
 
 export async function generateMetadata(): Promise<Metadata> {
   return await isAuthorized()
-    ? { title: "Unlocked", description: "Founder of Foremake, the company behind Vraelis and Overlym." }
+    ? { title: "Unlocked", description: "Sole founder of Foremake, the company behind Vraelis and Overlym." }
     : { title: "Locked", description: "Private portfolio. Access is shared privately with professional contacts and reviewers." };
 }
 
