@@ -116,10 +116,10 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Experience beyond my companies</p>
     <h3 class="statement r">Systems, strategy <span class="dim">and leadership.</span></h3>
-    <div class="steps rail three r">
-      <div class="card step"><em>Dec 2023 to Feb 2024</em><b>Technical contributor, Evade</b><span>Contract work with Hexagon Development Community using Visual Studio Code and Rojo.</span></div>
-      <div class="card step"><em>Sep to Nov 2025</em><b>Industry expert, AlphaSights</b><span>Paid consulting on game development and monetization strategy.</span></div>
-      <div class="card step"><em>Oct 2022 to May 2025</em><b>Club Live student organizer</b><span>Leadership training with the Sacramento County Office of Education, awareness projects and community events.</span></div>
+    <div class="steps rail three experience-cards r">
+      <div class="card step"><em>Dec 2023 – Feb 2024</em><b>Technical contributor, Evade</b><span>Contract work with Hexagon Development Community using Visual Studio Code and Rojo.</span></div>
+      <div class="card step"><em>Sep – Nov 2025</em><b>Industry expert, AlphaSights</b><span>Paid consulting on game development and monetization strategy.</span></div>
+      <div class="card step"><em>Oct 2022 – May 2025</em><b>Club Live student organizer</b><span>Leadership training with the Sacramento County Office of Education, awareness projects and community events.</span></div>
     </div>
     <p class="fine r">Previously an independent Solana trader using Axiom, June 2024 to May 2026.</p>
     <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Full experience ↗</a>

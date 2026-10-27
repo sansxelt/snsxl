@@ -95,3 +95,26 @@
 @media (prefers-reduced-motion:reduce) {
   .slide.center .big-num.visits { transition:none; }
 }
+
+/* Long experience dates must not determine the grid's minimum width. */
+.slide .experience-cards {
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  max-width:1100px;
+}
+.experience-cards .step { min-width:0; }
+.experience-cards .step em {
+  font-size:clamp(18px,1.7vw,26px);
+  letter-spacing:-.03em;
+  line-height:1.25;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  margin-bottom:16px;
+}
+.experience-cards .step b { font-size:clamp(17px,1.4vw,21px); }
+@media (max-width:800px) {
+  .slide .experience-cards { grid-template-columns:minmax(0,1fr); gap:10px; margin-top:12px; }
+  .experience-cards.rail::before,.experience-cards.rail .step::before { display:none; }
+  .experience-cards .step { padding:14px 16px; }
+  .experience-cards .step em { font-size:18px; margin-bottom:6px; }
+  .experience-cards .step span { font-size:13px; line-height:1.4; }
+}
