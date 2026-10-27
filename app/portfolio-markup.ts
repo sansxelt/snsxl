@@ -163,7 +163,7 @@ export const portfolioMarkup = `
   <div class="slide center">
     <p class="kicker r">What’s next</p>
     <h3 class="statement r">Already building. <span class="glow">Ready to go further.</span></h3>
-    <p class="body r">I want to keep building Foremake alongside serious builders and learn from founders who’ve done it before.</p>
+    <p class="body r">I’m especially interested in <a href="https://www.ycombinator.com/apply" target="_blank" rel="noopener noreferrer">Y Combinator’s Winter 2027 batch (W27)</a> and <a href="https://theacademysf.com/" target="_blank" rel="noopener noreferrer">the Horowitz Andreessen Academy</a>, the a16z-incubated school opening in September 2027. I want to build alongside ambitious founders and learn from people who’ve done it before.</p>
     <p class="body strong r">I’ve started. Now I want people who will push me further.</p>
   </div>
 
