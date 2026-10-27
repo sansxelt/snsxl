@@ -7,7 +7,7 @@ export const portfolioMarkup = `
 <section class="slide hero" id="top" data-chapter="Intro" aria-label="Introduction">
   <h2 class="statement hero-statement r">{{AGE_LINE}} I’ve been building <span class="glow">since I was 11.</span></h2>
   <div class="hero-facts r">
-    <div class="card"><strong><span class="count" data-to="11">11</span>B+ visits</strong><span>Lifetime visits on the Roblox games I’ve built and worked on.</span></div>
+    <div class="card"><strong><span class="count" data-to="12.5" data-dec="1">12.5</span>B+ visits</strong><span>Lifetime visits on the Roblox games I’ve built and worked on.</span></div>
     <div class="card"><strong>Foremake, Inc.</strong><span>My holding company, behind Vraelis and Overlym.</span></div>
     <div class="card"><strong>Stanford Pre-Collegiate</strong><span>Product Design at 14, with full tuition aid.</span></div>
   </div>
@@ -17,13 +17,13 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Building now</p>
     <h2 class="display r" id="now-title">From games to<br><span class="dim">companies.</span></h2>
-    <p class="body r">Games came first, then security and child safety. Today I run Foremake, the holding company behind Vraelis and Overlym.</p>
+    <p class="body r">Games came first, then security and child safety. Today I’m Executive Partner at Foremake, the holding company behind Vraelis and Overlym, and Founder and CEO of Vraelis.</p>
   </div>
 
   <div class="slide">
     <p class="kicker r">Foremake, Inc.</p>
     <h3 class="statement r">Foremake. <span class="dim">A holding company.</span></h3>
-    <p class="body r">I am the sole founder and owner of Foremake, funded by my earlier work. I lead product development and daily operations across Foremake, Vraelis and Overlym. Previously named Zarkyr.</p>
+    <p class="body r">I founded Foremake and now serve as Executive Partner. It is the umbrella brand building and backing technology companies, including Vraelis and Overlym. I lead product development and daily operations, funded by my earlier work. Previously named Zarkyr.</p>
     <div class="cards two r">
       <div class="card partner"><small>Attended, 2026</small><b>Supabase Select</b></div>
       <div class="card partner"><small>Invited, 2026</small><b>Cloudflare Connect</b></div>
@@ -57,7 +57,7 @@ export const portfolioMarkup = `
 
   <div class="slide center">
     <p class="visit-date r" aria-hidden="true">Recorded total</p>
-    <p class="big-num visits r" data-to="11700000000" aria-label="11.7 billion">11B+</p>
+    <p class="big-num visits r" data-to="12500000000" aria-label="12.5 billion">12.5B+</p>
     <p class="big-caption r">lifetime visits across games I’ve built and contributed to.</p>
     <p class="fine r">Total visits, including repeat visits from returning players.</p>
     <div class="proof-links r"><a class="go verified" href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3-3.2-.1L12 22.2l-2.6-1.9-3.2.1-1-3-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3 3.2.1z"></path><path d="M8.2 12.3l2.5 2.5 5.1-5.3" fill="none" stroke="#0b0d12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>Roblox portfolio ↗</a></div>
@@ -87,12 +87,19 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Games and communities</p>
     <div class="stats three r">
-      <div class="card stat"><b><span class="count" data-to="75">75</span></b><span>games and templates sold</span></div>
-      <div class="card stat"><b><span class="count" data-to="9.9" data-dec="1">9.9</span>M+</b><span>memberships across the dev communities I contribute to</span></div>
+      <div class="card stat"><b><span class="count" data-to="75">75</span>+</b><span>games and templates sold</span></div>
+      <div class="card stat"><b><span class="count" data-to="20">20</span>M+</b><span>memberships across communities associated with my Roblox work</span></div>
       <div class="card stat"><b><span class="count" data-to="5">5</span></b><span>development groups credited across four years</span></div>
     </div>
     <p class="fine r">Contributor in <a href="https://www.roblox.com/communities/5693735/Hexagon-Development-Community" target="_blank" rel="noopener noreferrer">Hexagon Development Community</a> and <a href="https://www.roblox.com/communities/35541084/linh" target="_blank" rel="noopener noreferrer">/linh</a>. Co-owner of <a href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios</a>. Founder of <a href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games</a>. Some work shipped under buyers’ names.</p>
     <div class="proof-links left r"><a class="go" href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games ↗</a><a class="go" href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios ↗</a></div>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Tiny Lab Studios · September 2025 to present</p>
+    <h3 class="statement r">Co-owner. <span class="glow">Lead systems developer.</span></h3>
+    <p class="body r">I build game systems and help lead Tiny Lab Studios. Our current game is Push Party.</p>
+    <p class="body r">On October 23, 2026, I shared its first-day results: 5.5K daily active users and more than 11K welcome badges claimed.</p>
+    <a class="go r" href="https://pushparty.io/" target="_blank" rel="noopener noreferrer">Play Push Party ↗</a>
   </div>
 </section>
 
@@ -112,6 +119,17 @@ export const portfolioMarkup = `
     </div>
   </div>
 
+  <div class="slide">
+    <p class="kicker r">Experience beyond my companies</p>
+    <h3 class="statement r">Systems, strategy <span class="dim">and leadership.</span></h3>
+    <div class="steps rail three r">
+      <div class="card step"><em>Dec 2023 to Feb 2024</em><b>Technical contributor, Evade</b><span>Contract work with Hexagon Development Community using Visual Studio Code and Rojo.</span></div>
+      <div class="card step"><em>Sep to Nov 2025</em><b>Industry expert, AlphaSights</b><span>Paid consulting on game development and monetization strategy.</span></div>
+      <div class="card step"><em>Oct 2022 to May 2025</em><b>Club Live student organizer</b><span>Leadership training with the Sacramento County Office of Education, awareness projects and community events.</span></div>
+    </div>
+    <p class="fine r">Previously an independent Solana trader using Axiom, June 2024 to May 2026.</p>
+    <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Full experience ↗</a>
+  </div>
   <div class="slide center">
     <p class="kicker r">July 18, 2025, age 14</p>
     <h3 class="statement r">Product Design at Stanford. <span class="glow">Full tuition aid.</span></h3>

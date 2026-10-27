@@ -48,7 +48,7 @@ export default function Presentation() {
     function resetVisits(el: HTMLElement, date: HTMLElement | null) {
       visitsRun++;
       el.classList.remove("compressed");
-      el.textContent = "11B+";
+      el.textContent = "12.5B+";
       if (date) date.textContent = "Recorded total";
     }
     function countVisits(slide: HTMLElement) {
@@ -58,7 +58,7 @@ export default function Presentation() {
       const run = visitsRun, to = Number(el.dataset.to);
       const finish = () => {
         if (run !== visitsRun) return;
-        el.textContent = "11B+";
+        el.textContent = "12.5B+";
         el.classList.add("compressed");
       };
       if (reduce) { finish(); return; }

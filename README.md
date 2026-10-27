@@ -24,3 +24,7 @@ Deploy through the connected `sansxelt/snsxl` Git repository and existing Vercel
 The visit log records successful acknowledged unlocks only in Vercel production. Local development and preview deployments never write to it. The `/visits` route requires the owner's existing key and returns 404 without it.
 
 DM Sans font files are stored locally in `public/fonts`. The 3D scene is generated procedurally and does not depend on the original large `public` asset folder.
+
+## Reviewer access
+
+`/yc-w27` grants the same seven-day portfolio session as the password flow, then redirects to `/`. It skips both the password and acknowledgement checkbox and unlocks portfolio evidence. Anyone holding this link can access the portfolio; it does not grant owner access to `/visits`. It does not record a checkbox acknowledgement. The ordinary index remains password protected for visitors without a valid session.
