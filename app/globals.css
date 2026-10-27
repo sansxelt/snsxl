@@ -74,3 +74,24 @@
 @media (max-height:800px) and (min-width:601px) {
   .evidence-certificate img { max-height:20svh; }
 }
+
+/* Keep the portfolio counter separate from the owner visit-log layout. */
+.slide.center .big-num.visits {
+  width:100%;
+  max-width:100%;
+  margin:12px auto 8px;
+  padding:0;
+  text-align:center;
+  font-size:clamp(28px,5.2vw,84px);
+  line-height:1.1;
+  letter-spacing:-.045em;
+  transition:font-size .6s ease;
+}
+.slide.center .big-num.visits.compressed {
+  font-size:clamp(76px,13vw,180px);
+  line-height:1.1;
+  letter-spacing:-.045em;
+}
+@media (prefers-reduced-motion:reduce) {
+  .slide.center .big-num.visits { transition:none; }
+}

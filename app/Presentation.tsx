@@ -48,7 +48,7 @@ export default function Presentation() {
     function resetVisits(el: HTMLElement, date: HTMLElement | null) {
       visitsRun++;
       el.classList.remove("compressed");
-      el.textContent = "12.5B+";
+      el.textContent = "0";
       if (date) date.textContent = "Recorded total";
     }
     function countVisits(slide: HTMLElement) {
@@ -99,18 +99,20 @@ export default function Presentation() {
     }, { threshold: .25 });
     slides.forEach(s => reveal.observe(s));
 
-    // Replay the visits counter every time its slide comes into view; reset it once it's gone.
-    const visitsSlide = document.querySelector<HTMLElement>(".visits")?.closest<HTMLElement>(".slide");
+    // Start at zero as soon as the counter itself enters the viewport.
+    const visitsCounter = document.querySelector<HTMLElement>(".big-num.visits");
+    const visitsSlide = visitsCounter?.closest<HTMLElement>(".slide");
     let visitsShown = false;
     const visitsWatch = new IntersectionObserver(([entry]) => {
-      if (entry.intersectionRatio >= .5 && !visitsShown && ready) { visitsShown = true; countVisits(entry.target as HTMLElement); }
-      else if (entry.intersectionRatio === 0 && visitsShown) {
+      if (entry.isIntersecting && !visitsShown && visitsSlide) {
+        visitsShown = true;
+        countVisits(visitsSlide);
+      } else if (!entry.isIntersecting && visitsShown && visitsCounter) {
         visitsShown = false;
-        const el = entry.target.querySelector<HTMLElement>(".visits");
-        if (el) resetVisits(el, entry.target.querySelector<HTMLElement>(".visit-date"));
+        resetVisits(visitsCounter, visitsSlide?.querySelector<HTMLElement>(".visit-date") ?? null);
       }
-    }, { threshold: [0, .5] });
-    if (visitsSlide) visitsWatch.observe(visitsSlide);
+    }, { threshold: 0 });
+    if (visitsCounter) visitsWatch.observe(visitsCounter);
 
     let current = 0;
     function update() {
