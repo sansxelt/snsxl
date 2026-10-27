@@ -137,18 +137,67 @@ export default function Presentation() {
     // Travelling between slides or chapters: a real, eased flight whose length scales with distance,
     // so the camera passes through the worlds at a readable pace. Any wheel or touch cancels it.
     let travel = 0;
+    let wheelFrame = 0;
+    let wheelTarget = window.scrollY;
+    let wheelPosition = window.scrollY;
+    let wheelLast = 0;
+    let stopFlight = () => {};
+    function stopWheel() {
+      cancelAnimationFrame(wheelFrame);
+      wheelFrame = 0;
+      wheelTarget = window.scrollY;
+    }
+    function wheelStep(now: number) {
+      const dt = Math.min((now - wheelLast) / 1000, .05);
+      wheelLast = now;
+      wheelTarget = Math.max(0, Math.min(wheelTarget, document.documentElement.scrollHeight - window.innerHeight));
+      const distance = wheelTarget - wheelPosition;
+      if (Math.abs(distance) < 1) {
+        window.scrollTo({ top: wheelTarget, behavior: "instant" });
+        wheelFrame = 0;
+        return;
+      }
+      wheelPosition += distance * (1 - Math.exp(-dt * 5));
+      window.scrollTo({ top: wheelPosition, behavior: "instant" });
+      wheelFrame = requestAnimationFrame(wheelStep);
+    }
+    function onWheel(event: WheelEvent) {
+      if (reduce || event.ctrlKey || event.defaultPrevented || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
+      // Leave form controls and independently scrolling panels to the browser.
+      let element = event.target instanceof HTMLElement ? event.target : null;
+      if (element?.closest("input, textarea, select, [contenteditable=true]")) return;
+      while (element && element !== document.body) {
+        if (/(auto|scroll)/.test(getComputedStyle(element).overflowY) && element.scrollHeight > element.clientHeight) return;
+        element = element.parentElement;
+      }
+      event.preventDefault();
+      stopFlight();
+      const scale = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? window.innerHeight : 1;
+      if (!wheelFrame) wheelTarget = wheelPosition = window.scrollY;
+      wheelTarget = Math.max(0, Math.min(wheelTarget + event.deltaY * scale * .5, document.documentElement.scrollHeight - window.innerHeight));
+      if (!wheelFrame) {
+        wheelLast = performance.now();
+        wheelFrame = requestAnimationFrame(wheelStep);
+      }
+    }
+    window.addEventListener("wheel", onWheel, { passive: false });
+    window.addEventListener("pointerdown", stopWheel, { passive: true });
+    window.addEventListener("touchstart", stopWheel, { passive: true });
     const easeInOut = (t: number) => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
     const setTravelling = (on: boolean) => window.dispatchEvent(new CustomEvent("scene-travel", { detail: on }));
     function jumpTo(target: HTMLElement) {
+      stopFlight();
+      stopWheel();
       const from = window.scrollY, to = Math.min(target.getBoundingClientRect().top + window.scrollY, document.documentElement.scrollHeight - window.innerHeight);
       const distance = Math.abs(to - from);
       if (distance < 2) return;
       if (reduce) { window.scrollTo(0, to); return; }
-      const duration = Math.min(5200, Math.max(1600, 1400 + distance / window.innerHeight * 420));
+      const duration = Math.min(8000, Math.max(2400, 2000 + distance / window.innerHeight * 650));
       const run = ++travel, began = performance.now();
       const root = document.documentElement;
       root.style.scrollBehavior = "auto"; setTravelling(true);
       const stop = () => { if (run !== travel) return; travel++; root.style.scrollBehavior = ""; setTravelling(false); window.removeEventListener("wheel", stop); window.removeEventListener("touchstart", stop); };
+      stopFlight = stop;
       window.addEventListener("wheel", stop, { passive: true, once: true });
       window.addEventListener("touchstart", stop, { passive: true, once: true });
       const step = (now: number) => {
@@ -181,7 +230,7 @@ export default function Presentation() {
       else if (e.key === "End") { e.preventDefault(); jumpTo(slides[slides.length - 1]); }
     }
     window.addEventListener("keydown", onKey);
-    return () => { window.clearTimeout(fallback); window.removeEventListener("scene-live", onLive); reveal.disconnect(); visitsWatch.disconnect(); window.removeEventListener("scroll", update); window.removeEventListener("resize", placePill); window.removeEventListener("keydown", onKey); document.removeEventListener("click", onClick); };
+    return () => { stopFlight(); stopWheel(); window.removeEventListener("wheel", onWheel); window.removeEventListener("pointerdown", stopWheel); window.removeEventListener("touchstart", stopWheel); window.clearTimeout(fallback); window.removeEventListener("scene-live", onLive); reveal.disconnect(); visitsWatch.disconnect(); window.removeEventListener("scroll", update); window.removeEventListener("resize", placePill); window.removeEventListener("keydown", onKey); document.removeEventListener("click", onClick); };
   }, []);
   return null;
 }
