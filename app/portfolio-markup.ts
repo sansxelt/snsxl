@@ -1,7 +1,7 @@
 // Portfolio content restored from the existing authenticated production site.
 export const portfolioMarkup = `
 <a class="skip" href="#now">Skip to content</a>
-<header class="topbar"><a class="topbar-name" href="#top">Nishanth Dasari</a><nav class="topbar-nav" aria-label="Chapters"><span class="topbar-pill" aria-hidden="true"></span><a href="#now"><span class="n">01</span>Now</a><a href="#proof"><span class="n">02</span>Proof</a><a href="#path"><span class="n">03</span>Path</a><a href="#me"><span class="n">04</span>Me</a></nav><a class="topbar-cta" href="mailto:nishanth@foremake.com">Contact</a><a class="topbar-mail" href="mailto:nishanth@foremake.com" aria-label="Email Nishanth"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16v11H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path><path d="M4.5 7l7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></a><span class="topbar-progress" aria-hidden="true"><i></i></span></header>
+<header class="topbar"><a class="topbar-name" href="#top">Nishanth Dasari</a><nav class="topbar-nav" aria-label="Chapters"><span class="topbar-pill" aria-hidden="true"></span><a href="#now"><span class="n">01</span>Now</a><a href="#proof"><span class="n">02</span>Proof</a><a href="#path"><span class="n">03</span>Path</a><a href="#me"><span class="n">04</span>Me</a></nav><a class="topbar-cta" href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">Contact</a><a class="topbar-mail" href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer" aria-label="Contact Nishanth on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16v11H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path><path d="M4.5 7l7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></a><span class="topbar-progress" aria-hidden="true"><i></i></span></header>
 <main>
 
 <section class="slide hero" id="top" data-chapter="Intro" aria-label="Introduction">
@@ -28,7 +28,6 @@ export const portfolioMarkup = `
       <div class="card partner"><small>Attended, 2026</small><b>Supabase Select</b></div>
       <div class="card partner"><small>Invited, 2026</small><b>Cloudflare Connect</b></div>
     </div>
-    <p class="fine r"><a href="https://foremake.com/events" target="_blank" rel="noopener noreferrer">Invitations and company milestones ↗</a></p>
     <a class="go r" href="https://foremake.com/" target="_blank" rel="noopener noreferrer">foremake.com ↗</a>
   </div>
 
@@ -54,7 +53,7 @@ export const portfolioMarkup = `
     <p class="big-num visits" data-to="12500000000" aria-label="12.5 billion">0</p>
     <p class="big-caption r">visits across games I directly built and contributed to.</p>
     <p class="body r"><strong>25M+ group memberships</strong> across communities associated with that work.</p>
-    <p class="fine r">Lifetime visits include repeat visits. Group memberships are not unique people.</p>
+    <p class="fine r">Lifetime visits include repeat visits.</p>
     <div class="proof-links r"><a class="go verified" href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3-3.2-.1L12 22.2l-2.6-1.9-3.2.1-1-3-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3 3.2.1z"></path><path d="M8.2 12.3l2.5 2.5 5.1-5.3" fill="none" stroke="#0b0d12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>Roblox portfolio ↗</a></div>
   </div>
 
@@ -193,7 +192,7 @@ export const portfolioMarkup = `
 
   <div class="slide center last">
     <h3 class="quote r">Get in touch.</h3>
-    <a class="contact-mail r" href="mailto:nishanth@foremake.com">nishanth@foremake.com</a>
+    <a class="contact-mail r" href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
     <div class="links r"><a href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/sansxelt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/fwnishy" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox ↗</a><a href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a></div>
   </div>
 </section>
