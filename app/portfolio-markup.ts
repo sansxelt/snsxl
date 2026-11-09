@@ -63,7 +63,7 @@ export const portfolioMarkup = `
     <h3 class="statement r">The wider scale <span class="dim">of the teams I joined.</span></h3>
     <div class="stats two r"><div class="card stat"><b>43.5B+</b><span>combined studio-portfolio visits</span></div><div class="card stat"><b>164M+</b><span>combined group memberships</span></div></div>
     <p class="body r">Quality assurance at Do Big Studios and operations at Quataun, alongside my direct development work.</p>
-    <p class="fine r">Sum of the supplied studio figures: 38B + 5.5B visits and 145M + 19M memberships. Portfolios and audiences may overlap. These figures are not added to the direct-work totals.</p>
+    <p class="fine r">Do Big Studios: 38B visits and 145M+ memberships. Quataun: 5.5B+ visits and 19M+ memberships. Combined studio figures may include overlapping games and memberships.</p>
   </div>
 
   <div class="slide">
@@ -71,7 +71,7 @@ export const portfolioMarkup = `
     <h3 class="statement r">Execution environments. <span class="dim">Security research.</span></h3>
     <p class="body r">Worked with the engineering team on software development, reverse engineering and research into Roblox’s client execution environment, including compatibility as the platform changed.</p>
     <div class="stats two r"><div class="card stat"><b>8.5M+</b><span>reported project downloads</span></div><div class="card stat"><b>1.7M+</b><span>reported authorized users</span></div></div>
-    <div class="proof-links left r"><a class="go" href="https://x.com/4Lulzy/status/2105738514021437881" target="_blank" rel="noopener noreferrer">Project reference ↗</a><a class="go" href="https://x.synapse.to" target="_blank" rel="noopener noreferrer">Shutdown message ↗</a></div>
+    <div class="proof-links left r"><a class="go" href="https://x.com/4Lulzy/status/2105738514021437881" target="_blank" rel="noopener noreferrer">Project reference ↗</a><a class="go" href="https://x.synapse.to" target="_blank" rel="noopener noreferrer">Project website ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/details/projects/" target="_blank" rel="noopener noreferrer">LinkedIn project details ↗</a></div>
   </div>
 
   <div class="slide">
@@ -79,7 +79,7 @@ export const portfolioMarkup = `
     <h3 class="statement r">Built to <span class="glow">keep kids safe.</span></h3>
     <p class="body r">I helped connect Roblox games to <a href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">EASI</a>’s moderation database: screening joining players, enforcing bans and escalating evidence to Roblox.</p>
     <dl class="project-notes r"><div><dt>Scale</dt><dd>500K+ reported account bans across 14K+ Roblox experiences.</dd></div><div><dt>Contribution</dt><dd>Moderation database integration, structured incident records and evidence routing with Ruben Sim and the EASI reporting network.</dd></div></dl>
-    <div class="proof-links left r"><a class="go" href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">What EASI is ↗</a></div>
+    <div class="proof-links left r"><a class="go" href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">What EASI is ↗</a><a class="go" href="https://erpsearcher.com" target="_blank" rel="noopener noreferrer">EASI integration ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/details/projects/" target="_blank" rel="noopener noreferrer">LinkedIn project details ↗</a></div>
   </div>
 
   <div class="slide">
@@ -90,7 +90,7 @@ export const portfolioMarkup = `
       <div class="card stat"><b><span class="count" data-to="5">5</span></b><span>development groups credited across four years</span></div>
     </div>
     <p class="fine r">Contributor in <a href="https://www.roblox.com/communities/5693735/Hexagon-Development-Community" target="_blank" rel="noopener noreferrer">Hexagon Development Community</a> and <a href="https://www.roblox.com/communities/35541084/linh" target="_blank" rel="noopener noreferrer">/linh</a>. Co-owner of <a href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios</a>. Founder of <a href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games</a>. Some work shipped under buyers’ names.</p>
-    <div class="proof-links left r"><a class="go" href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games ↗</a><a class="go" href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios ↗</a></div>
+    <div class="proof-links left r"><a class="go" href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games ↗</a><a class="go" href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Roles and attached evidence ↗</a></div>
   </div>
   <div class="slide">
     <p class="kicker r">Tiny Lab Studios · September 2025 to present</p>
@@ -125,7 +125,6 @@ export const portfolioMarkup = `
       <div class="card step"><em>Sep – Nov 2025</em><b>Industry expert, AlphaSights</b><span>Recruited at 14 for paid Roblox consulting on game development and monetization strategy.</span></div>
       <div class="card step"><em>Oct 2022 – May 2025</em><b>Club Live student organizer</b><span>Leadership training with the Sacramento County Office of Education and collaboration with 12 nonprofit and commercial organizations.</span></div>
     </div>
-    <p class="fine r">Previously an independent Solana trader using Axiom, June 2024 to May 2026.</p>
     <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Full experience ↗</a>
   </div>
   <div class="slide">
@@ -147,7 +146,7 @@ export const portfolioMarkup = `
     <p class="kicker r">Sansxel Tech · July 2024–January 2025</p>
     <h3 class="statement r">An early venture <span class="dim">in hardware and design.</span></h3>
     <p class="body r">Founded at 13 as an independent hardware and product-design venture, generating four-figure revenue. The project is inactive; its original site remains as an archive.</p>
-    <a class="go r" href="https://ninjaboiii007.wixsite.com/mysite" target="_blank" rel="noopener noreferrer">Original project site ↗</a>
+    <a class="go r" href="https://ninjaboiii007.wixsite.com/mysite" target="_blank" rel="noopener noreferrer">Original project site ↗</a><a class="go r" href="https://www.linkedin.com/in/beamed/details/projects/" target="_blank" rel="noopener noreferrer">LinkedIn projects ↗</a>
   </div>
   <div class="slide center">
     <p class="kicker r">July 18, 2025, age 14</p>
