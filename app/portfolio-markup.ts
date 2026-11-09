@@ -88,15 +88,14 @@ export const portfolioMarkup = `
       <div class="card stat"><b><span class="count" data-to="25">25</span>M+</b><span>memberships across communities associated with my Roblox work</span></div>
       <div class="card stat"><b><span class="count" data-to="5">5</span></b><span>development groups credited across four years</span></div>
     </div>
-    <p class="fine r">Contributor in <a href="https://www.roblox.com/communities/5693735/Hexagon-Development-Community" target="_blank" rel="noopener noreferrer">Hexagon Development Community</a> and <a href="https://www.roblox.com/communities/35541084/linh" target="_blank" rel="noopener noreferrer">/linh</a>. Co-owner of <a href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios</a>. Founder of <a href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games</a>. Some work shipped under buyers’ names.</p>
+    <p class="fine r">Contributor in <a href="https://www.roblox.com/communities/5693735/Hexagon-Development-Community" target="_blank" rel="noopener noreferrer">Hexagon Development Community</a> and <a href="https://www.roblox.com/communities/35541084/linh" target="_blank" rel="noopener noreferrer">/linh</a>. Former Technical Contributor and CTO at <a href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios</a>. Founder of <a href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games</a>. Some work shipped under buyers’ names.</p>
     <div class="proof-links left r"><a class="go" href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games ↗</a><a class="go" href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Roles and attached evidence ↗</a></div>
   </div>
   <div class="slide">
-    <p class="kicker r">Tiny Lab Studios · September 2025 to present</p>
-    <h3 class="statement r">Co-owner. <span class="glow">Lead systems developer.</span></h3>
-    <p class="body r">I build game systems and help lead Tiny Lab Studios. Our current game is Push Party.</p>
-    <p class="body r">On October 23, 2026, I shared its first-day results: 5.5K daily active users and more than 11K welcome badges claimed.</p>
-    <a class="go r" href="https://pushparty.io/" target="_blank" rel="noopener noreferrer">Play Push Party ↗</a>
+    <p class="kicker r">Tiny Lab Studios · September 2025–March 2026</p>
+    <h3 class="statement r">Technical Contributor. <span class="glow">CTO.</span></h3>
+    <p class="body r">I contributed to Tiny Lab Studios, an umbrella of Roblox groups with games reaching more than 2.5 billion visits.</p>
+    <div class="proof-links left r"><a class="go" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Role and evidence on LinkedIn ↗</a><a class="go" href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios ↗</a></div>
   </div>
 </section>
 
@@ -132,14 +131,16 @@ export const portfolioMarkup = `
     <div class="steps rail three experience-cards r">
       <div class="card step"><em>May–July 2026 · Remote</em><b>Quality Assurance Manager · Do Big Studios</b><span>Transferred from Quataun. Studio portfolio: 38B visits and 145M+ members. Left to build Vraelis.</span></div>
       <div class="card step"><em>April–May 2026 · Remote</em><b>Operations Manager · Quataun</b><span>Joined after retiring from active Roblox entrepreneurship. Company portfolio: 5.5B+ visits and 19M+ members.</span></div>
-      <div class="card step"><em>December 2025–January 2026 · San Jose</em><b>Research Intern · Analog Devices</b><span>Engineering research in circuit testing and electronic component analysis.</span></div>
+      <div class="card step"><em>December 2025–January 2026 · California · Remote</em><b>Research Intern · Analog Devices</b><span>Internship researching the design portion of circuit testing and component analysis.</span></div>
     </div>
+    <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Roles and evidence on LinkedIn ↗</a>
   </div>
   <div class="slide">
     <p class="kicker r">Roblox · May 2022–April 2026</p>
     <h3 class="statement r">Four years <span class="dim">of building and shipping.</span></h3>
     <p class="body r">Technical multi-venture entrepreneur across games and communities with 12.5B+ visits, 25M+ memberships and 75+ games sold. Now retired from that role and retaining equity interests.</p>
     <dl class="project-notes r"><div><dt>Tiny Lab Studios</dt><dd>Technical Contributor and CTO, September 2025–March 2026. An umbrella of Roblox groups with games reaching 2.5B+ visits.</dd></div><div><dt>Hexagon Development Community</dt><dd>Contract Technical Contributor, December 2023–February 2024. Asset-management integration for a community with 7M+ members and 10B+ visits.</dd></div></dl>
+    <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Roblox roles and evidence ↗</a>
   </div>
   <div class="slide">
     <p class="kicker r">Sansxel Tech · July 2024–January 2025</p>
