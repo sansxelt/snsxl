@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
-    "/evidence/[name]": ["./assets/evidence/*.webp"],
+    "/evidence/[name]": ["./assets/evidence/*.webp", "./assets/evidence/*.jpg", "./assets/evidence/*.png"],
   },
 };
 

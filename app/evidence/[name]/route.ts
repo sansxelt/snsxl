@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { cookies } from "next/headers";
 import { COOKIE_NAME, verifyAccessToken } from "../../../lib/auth";
 
-const files = new Set(["stanford.webp", "linkedin-summer-2026.webp", "linkedin-october-2026.webp", "yc-email.webp"]);
+const files = new Set(["stanford.webp", "linkedin-summer-2026.webp", "linkedin-october-2026.webp", "yc-email.webp", "evade-role.jpg", "tiny-lab-thumbnail.jpg", "quataun-role.jpg", "secretverse-role.jpg", "tiny-lab-role.jpg", "roblox-templates.png"]);
 export const runtime = "nodejs";
 
 export async function GET(_request: Request, { params }: { params: Promise<{ name: string }> }) {
@@ -14,6 +14,6 @@ export async function GET(_request: Request, { params }: { params: Promise<{ nam
   }
   const file = await readFile(join(process.cwd(), "assets", "evidence", name));
   return new Response(new Uint8Array(file), {
-    headers: { "Content-Type": "image/webp", "Cache-Control": "private, no-store", "X-Content-Type-Options": "nosniff" },
+    headers: { "Content-Type": name.endsWith(".png") ? "image/png" : name.endsWith(".jpg") ? "image/jpeg" : "image/webp", "Cache-Control": "private, no-store", "X-Content-Type-Options": "nosniff" },
   });
 }

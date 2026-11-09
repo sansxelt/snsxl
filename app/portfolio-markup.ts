@@ -95,7 +95,26 @@ export const portfolioMarkup = `
     <p class="kicker r">Tiny Lab Studios · September 2025–March 2026</p>
     <h3 class="statement r">Technical Contributor. <span class="glow">CTO.</span></h3>
     <p class="body r">I contributed to Tiny Lab Studios, an umbrella of Roblox groups with games reaching more than 2.5 billion visits.</p>
+    <div class="role-proof-grid tiny-proof r"><figure class="role-proof"><a href="/evidence/tiny-lab-role.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Tiny Lab Studios role screenshot"><img src="/evidence/tiny-lab-role.jpg" alt="Tiny Lab Studios Owners list showing yksansxel and Tw1" width="1240" height="1269" loading="lazy" decoding="async"></a><figcaption>Tiny Lab Studios role screenshot · <a href="/evidence/tiny-lab-role.jpg" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure><figure class="role-proof"><a href="/evidence/tiny-lab-thumbnail.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Tiny Lab Studios thumbnail"><img src="/evidence/tiny-lab-thumbnail.jpg" alt="Smaller uploaded version of the Tiny Lab Studios Owners list" width="156" height="160" loading="lazy" decoding="async"></a><figcaption>Tiny Lab Studios thumbnail · <a href="/evidence/tiny-lab-thumbnail.jpg" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure></div>
     <div class="proof-links left r"><a class="go" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Role and evidence on LinkedIn ↗</a><a class="go" href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios ↗</a></div>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Hexagon Development Community · December 2023</p>
+    <h3 class="statement r">Evade. <span class="dim">The original credit.</span></h3>
+    <div class="role-proof-grid single wide-proof r"><figure class="role-proof"><a href="/evidence/evade-role.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Evade contributor announcement"><img src="/evidence/evade-role.jpg" alt="December 27, 2023 Discord announcement listing yksansxel among Evade QA, build and development contributors" width="918" height="298" loading="lazy" decoding="async"></a><figcaption>Evade contributor announcement · <a href="/evidence/evade-role.jpg" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure></div>
+    <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">LinkedIn experience and media ↗</a>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Roblox · Role screenshots</p>
+    <h3 class="statement r">Operations <span class="dim">and quality assurance.</span></h3>
+    <div class="role-proof-grid r"><figure class="role-proof"><a href="/evidence/quataun-role.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Quataun · Operation Manager"><img src="/evidence/quataun-role.jpg" alt="Quataun group showing yksansxel in the Operation Manager role" width="221" height="480" loading="lazy" decoding="async"></a><figcaption>Quataun · Operation Manager · <a href="/evidence/quataun-role.jpg" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure><figure class="role-proof"><a href="/evidence/secretverse-role.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open SecretVerse Studio · QA Manager"><img src="/evidence/secretverse-role.jpg" alt="SecretVerse Studio group showing yksansxel in the QA Manager role" width="221" height="480" loading="lazy" decoding="async"></a><figcaption>SecretVerse Studio · QA Manager · <a href="/evidence/secretverse-role.jpg" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure></div>
+    <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">LinkedIn experience and media ↗</a>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Roblox · Portfolio media</p>
+    <h3 class="statement r">Games <span class="dim">and templates.</span></h3>
+    <div class="role-proof-grid single r"><figure class="role-proof"><a href="/evidence/roblox-templates.png" target="_blank" rel="noopener noreferrer" aria-label="Open Game templates shared on LinkedIn"><img src="/evidence/roblox-templates.png" alt="LinkedIn media panel showing Find The Button, Scroll A Game Template and Grow a Farm Game Template" width="1023" height="918" loading="lazy" decoding="async"></a><figcaption>Game templates shared on LinkedIn · <a href="/evidence/roblox-templates.png" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure></div>
+    <div class="proof-links left r"><a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">LinkedIn experience and media ↗</a><a class="go r" href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox portfolio ↗</a></div>
   </div>
 </section>
 
