@@ -33,11 +33,11 @@ export const portfolioMarkup = `
   </div>
 
   <div class="slide">
-    <p class="kicker r">Vraelis · Founded July 2026 · Built solo</p>
+    <p class="kicker r">Vraelis · Founder &amp; CEO · July 2026–present</p>
     <h3 class="statement r">AI security for <span class="glow">consequential systems.</span></h3>
     <p class="body r">Cybersecurity for AI in defense, critical infrastructure and autonomous systems. My work spans model integrity, adversarial threats, machine trust and security evidence.</p>
-    <dl class="project-notes r"><div><dt>First product</dt><dd>Vraelis Contour connects an approved model release to what a receiving runtime reports loading.</dd></div><div><dt>Today</dt><dd>A working ONNX CPU experiment, with internal tests. Contour is in private development.</dd></div></dl>
-    <div class="proof-links left r"><a class="go" href="https://vraelis.com/" target="_blank" rel="noopener noreferrer">Vraelis ↗</a><a class="go" href="https://vraelis.com/contour" target="_blank" rel="noopener noreferrer">Vraelis Contour ↗</a></div>
+    <dl class="project-notes r"><div><dt>Shipping</dt><dd>Prompto 0.1.25 for Windows: model-file checks, change detection, saved records and an in-app crystal viewer.</dd></div><div><dt>In development</dt><dd>Contour connects an approved model release to what a receiving runtime reports loading. Its ONNX CPU experiment has internal tests.</dd></div></dl>
+    <div class="proof-links left r"><a class="go" href="https://vraelis.com/" target="_blank" rel="noopener noreferrer">Vraelis ↗</a><a class="go" href="https://vraelis.com/contour" target="_blank" rel="noopener noreferrer">Vraelis Contour ↗</a><a class="go" href="https://vraelis.com/prompto" target="_blank" rel="noopener noreferrer">Vraelis Prompto ↗</a></div>
   </div>
 
 </section>
@@ -52,29 +52,33 @@ export const portfolioMarkup = `
   <div class="slide center">
     <p class="visit-date r" aria-hidden="true">Recorded total</p>
     <p class="big-num visits" data-to="12500000000" aria-label="12.5 billion">0</p>
-    <p class="big-caption r">lifetime visits across games I’ve built and contributed to.</p>
-    <p class="fine r">Total visits, including repeat visits from returning players.</p>
+    <p class="big-caption r">visits across games I directly built and contributed to.</p>
+    <p class="body r"><strong>25M+ group memberships</strong> across communities associated with that work.</p>
+    <p class="fine r">Lifetime visits include repeat visits. Group memberships are not unique people.</p>
     <div class="proof-links r"><a class="go verified" href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3-3.2-.1L12 22.2l-2.6-1.9-3.2.1-1-3-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3 3.2.1z"></path><path d="M8.2 12.3l2.5 2.5 5.1-5.3" fill="none" stroke="#0b0d12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>Roblox portfolio ↗</a></div>
   </div>
 
   <div class="slide">
-    <p class="kicker r">Anti-cheat · Team-built · Oct 2025–Mar 2026</p>
-    <div class="stats r">
-      <div class="card stat"><b><span class="count" data-to="1.7" data-dec="1">1.7</span>M+</b><span>downloads</span></div>
-      <div class="card stat"><b><span class="count" data-to="14000">14,000</span>+</b><span>games adopted it</span></div>
-      <div class="card stat"><b><span class="count" data-to="560">560</span>K</b><span>authorized users</span></div>
-      <div class="card stat"><b><span class="count" data-to="10000">10,000</span>+</b><span>exploits and executors detected, kernel and user mode</span></div>
-    </div>
-    <p class="fine r">Co-built with a team; six-figure project revenue.</p>
-    <dl class="project-notes r"><div><dt>Built</dt><dd>Detection logic, new exploit variants and false-positive monitoring.</dd></div><div><dt>Hard part</dt><dd>Catch changing exploits without flagging real players.</dd></div></dl>
-    <div class="proof-links left r"><a class="go verified" href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3-3.2-.1L12 22.2l-2.6-1.9-3.2.1-1-3-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3 3.2.1z"></path><path d="M8.2 12.3l2.5 2.5 5.1-5.3" fill="none" stroke="#0b0d12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>Roblox portfolio ↗</a></div>
+    <p class="kicker r">Wider studio experience · Do Big Studios + Quataun</p>
+    <h3 class="statement r">The wider scale <span class="dim">of the teams I joined.</span></h3>
+    <div class="stats two r"><div class="card stat"><b>43.5B+</b><span>combined studio-portfolio visits</span></div><div class="card stat"><b>164M+</b><span>combined group memberships</span></div></div>
+    <p class="body r">Quality assurance at Do Big Studios and operations at Quataun, alongside my direct development work.</p>
+    <p class="fine r">Sum of the supplied studio figures: 38B + 5.5B visits and 145M + 19M memberships. Portfolios and audiences may overlap. These figures are not added to the direct-work totals.</p>
+  </div>
+
+  <div class="slide">
+    <p class="kicker r">Synapse X · CTO · October 2025–March 2026</p>
+    <h3 class="statement r">Execution environments. <span class="dim">Security research.</span></h3>
+    <p class="body r">Worked with the engineering team on software development, reverse engineering and research into Roblox’s client execution environment, including compatibility as the platform changed.</p>
+    <div class="stats two r"><div class="card stat"><b>8.5M+</b><span>reported project downloads</span></div><div class="card stat"><b>1.7M+</b><span>reported authorized users</span></div></div>
+    <div class="proof-links left r"><a class="go" href="https://x.com/4Lulzy/status/2105738514021437881" target="_blank" rel="noopener noreferrer">Project reference ↗</a><a class="go" href="https://x.synapse.to" target="_blank" rel="noopener noreferrer">Shutdown message ↗</a></div>
   </div>
 
   <div class="slide">
     <p class="kicker r">Child safety, January to April 2025</p>
     <h3 class="statement r">Built to <span class="glow">keep kids safe.</span></h3>
     <p class="body r">I helped connect Roblox games to <a href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">EASI</a>’s moderation database: screening joining players, enforcing bans and escalating evidence to Roblox.</p>
-    <dl class="project-notes r"><div><dt>Built</dt><dd>Database integration and the evidence-reporting pipeline.</dd></div><div><dt>Hard part</dt><dd>Make evidence useful beyond one game’s ban.</dd></div></dl>
+    <dl class="project-notes r"><div><dt>Scale</dt><dd>500K+ reported account bans across 14K+ Roblox experiences.</dd></div><div><dt>Contribution</dt><dd>Moderation database integration, structured incident records and evidence routing with Ruben Sim and the EASI reporting network.</dd></div></dl>
     <div class="proof-links left r"><a class="go" href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">What EASI is ↗</a></div>
   </div>
 
@@ -82,7 +86,7 @@ export const portfolioMarkup = `
     <p class="kicker r">Games and communities</p>
     <div class="stats three r">
       <div class="card stat"><b><span class="count" data-to="75">75</span>+</b><span>games and templates sold</span></div>
-      <div class="card stat"><b><span class="count" data-to="20">20</span>M+</b><span>memberships across communities associated with my Roblox work</span></div>
+      <div class="card stat"><b><span class="count" data-to="25">25</span>M+</b><span>memberships across communities associated with my Roblox work</span></div>
       <div class="card stat"><b><span class="count" data-to="5">5</span></b><span>development groups credited across four years</span></div>
     </div>
     <p class="fine r">Contributor in <a href="https://www.roblox.com/communities/5693735/Hexagon-Development-Community" target="_blank" rel="noopener noreferrer">Hexagon Development Community</a> and <a href="https://www.roblox.com/communities/35541084/linh" target="_blank" rel="noopener noreferrer">/linh</a>. Co-owner of <a href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios</a>. Founder of <a href="https://www.roblox.com/communities/35744692/Sansxel-Games" target="_blank" rel="noopener noreferrer">Sansxel Games</a>. Some work shipped under buyers’ names.</p>
@@ -118,11 +122,32 @@ export const portfolioMarkup = `
     <h3 class="statement r">Systems, strategy <span class="dim">and leadership.</span></h3>
     <div class="steps rail three experience-cards r">
       <div class="card step"><em>Dec 2023 – Feb 2024</em><b>Technical contributor, Evade</b><span>Contract work with Hexagon Development Community using Visual Studio Code and Rojo.</span></div>
-      <div class="card step"><em>Sep – Nov 2025</em><b>Industry expert, AlphaSights</b><span>Paid consulting on game development and monetization strategy.</span></div>
-      <div class="card step"><em>Oct 2022 – May 2025</em><b>Club Live student organizer</b><span>Leadership training with the Sacramento County Office of Education, awareness projects and community events.</span></div>
+      <div class="card step"><em>Sep – Nov 2025</em><b>Industry expert, AlphaSights</b><span>Recruited at 14 for paid Roblox consulting on game development and monetization strategy.</span></div>
+      <div class="card step"><em>Oct 2022 – May 2025</em><b>Club Live student organizer</b><span>Leadership training with the Sacramento County Office of Education and collaboration with 12 nonprofit and commercial organizations.</span></div>
     </div>
     <p class="fine r">Previously an independent Solana trader using Axiom, June 2024 to May 2026.</p>
     <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Full experience ↗</a>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Experience · 2025–2026</p>
+    <h3 class="statement r">From operations <span class="dim">to building Vraelis.</span></h3>
+    <div class="steps rail three experience-cards r">
+      <div class="card step"><em>May–July 2026 · Remote</em><b>Quality Assurance Manager · Do Big Studios</b><span>Transferred from Quataun. Studio portfolio: 38B visits and 145M+ members. Left to build Vraelis.</span></div>
+      <div class="card step"><em>April–May 2026 · Remote</em><b>Operations Manager · Quataun</b><span>Joined after retiring from active Roblox entrepreneurship. Company portfolio: 5.5B+ visits and 19M+ members.</span></div>
+      <div class="card step"><em>December 2025–January 2026 · San Jose</em><b>Research Intern · Analog Devices</b><span>Engineering research in circuit testing and electronic component analysis.</span></div>
+    </div>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Roblox · May 2022–April 2026</p>
+    <h3 class="statement r">Four years <span class="dim">of building and shipping.</span></h3>
+    <p class="body r">Technical multi-venture entrepreneur across games and communities with 12.5B+ visits, 25M+ memberships and 75+ games sold. Now retired from that role and retaining equity interests.</p>
+    <dl class="project-notes r"><div><dt>Tiny Lab Studios</dt><dd>Technical Contributor and CTO, September 2025–March 2026. An umbrella of Roblox groups with games reaching 2.5B+ visits.</dd></div><div><dt>Hexagon Development Community</dt><dd>Contract Technical Contributor, December 2023–February 2024. Asset-management integration for a community with 7M+ members and 10B+ visits.</dd></div></dl>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Sansxel Tech · July 2024–January 2025</p>
+    <h3 class="statement r">An early venture <span class="dim">in hardware and design.</span></h3>
+    <p class="body r">Founded at 13 as an independent hardware and product-design venture, generating four-figure revenue. The project is inactive; its original site remains as an archive.</p>
+    <a class="go r" href="https://ninjaboiii007.wixsite.com/mysite" target="_blank" rel="noopener noreferrer">Original project site ↗</a>
   </div>
   <div class="slide center">
     <p class="kicker r">July 18, 2025, age 14</p>
@@ -135,7 +160,7 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Part two: security, then companies</p>
     <div class="steps rail three r">
-      <div class="card step"><em>2025</em><b>From games to safety</b><span>Child safety in January; anti-cheat in October.</span></div>
+      <div class="card step"><em>2025</em><b>From games to safety</b><span>Child safety in January; execution-environment security research in October.</span></div>
       <div class="card step"><em>Jul 2026</em><b>Started building companies</b><span>Vraelis in July, Foremake in September.</span></div>
       <div class="card step"><em>Aug 28, 2026</em><b>YC declined an interview</b><span>Vraelis’s Fall 2026 application wasn’t selected. I kept building.</span></div>
     </div>
