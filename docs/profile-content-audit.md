@@ -30,3 +30,17 @@ Use absolute month/year dates, not the export's rounded or inclusive duration la
 Foremake, Tiny Lab, Synapse X, EASI, Sansxel Tech, Club Live, event attendance and several project statistics are absent from this short export. Existing entries and original evidence are retained, not newly corroborated by this PDF. No start/end dates inferred from their absence.
 
 The PDF describes a $5M market valuation but supplies no valuation transaction or methodology. It is not added as an established valuation. The aspirational billionaire summary is not presented as an achieved milestone. The personal mobile number and full birth date are not newly published.
+
+
+## Expanded profile correction — November 14, 2026
+
+The owner subsequently supplied expanded LinkedIn profile text. This supersedes the earlier PDF-only review for projects and volunteering; that first review was incomplete.
+
+- Synapse X CTO: **May 2023–October 2024**, replacing the incorrect October 2025–March 2026. Expanded engineering description and restored the shutdown-link label.
+- EASI: **March–May 2025**, replacing January–April 2025. Expanded the integration and evidence-routing description.
+- Student Advisor, Youth Engagement: **U.S. Department of Education, October 2022–May 2025, 275 hours** through a school program. Replaced the inaccurate Club Live/Sacramento County entry and gave volunteering a dedicated section. Do not frame this as federal employment or a direct federal appointment.
+- Corrected the security/child-safety timeline to match those project dates.
+- Added recent Tiny Lab co-founder/Push Party activity separately from the historical CTO entry. The post reports 5.5K daily active users and 11K+ welcome badges; these are not retention metrics. No new co-founder start date is inferred from relative post timestamps.
+- Added the explicitly dated October 21, 2026 Resend Forward/a16z speedrun dinner attendance and Vercel Ship SF attendance. Meetings with attendees are not company partnerships.
+- The expanded source still truncates one of three projects and some experience with “Show all”. Those unseen entries cannot be called audited. Historical Tiny Lab CTO dates and Sansxel Tech remain previously supplied history, not newly confirmed.
+- School dates remain August 2025–May 2029. The profile's “sophomore” description conflicts with the class-of-2029 timeline, so no grade-level claim was added.

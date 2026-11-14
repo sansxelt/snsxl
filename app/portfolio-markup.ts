@@ -1,4 +1,4 @@
-// Current profile facts reconciled with the owner-supplied LinkedIn PDF on 2026-11-14.
+// Current profile facts reconciled with the owner-supplied LinkedIn PDF and expanded profile text on 2026-11-14.
 // See docs/profile-content-audit.md for source scope and retained historical material.
 export const portfolioMarkup = `
 <a class="skip" href="#now">Skip to content</a>
@@ -29,7 +29,8 @@ export const portfolioMarkup = `
       <div class="card partner"><small>Attended, 2026</small><b>Supabase Select</b></div>
       <div class="card partner"><small>Invited, 2026</small><b>Cloudflare Connect</b></div>
     </div>
-    <a class="go r" href="https://foremake.com/" target="_blank" rel="noopener noreferrer">foremake.com ↗</a>
+    <p class="fine r">I spent my sixteenth birthday, October 21, 2026, at Resend Forward and an a16z speedrun dinner in San Francisco. I also attended Vercel Ship SF.</p>
+    <div class="proof-links left r"><a class="go" href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/recent-activity/all/" target="_blank" rel="noopener noreferrer">Event posts on LinkedIn ↗</a></div>
   </div>
 
   <div class="slide">
@@ -67,18 +68,18 @@ export const portfolioMarkup = `
   </div>
 
   <div class="slide">
-    <p class="kicker r">Synapse X · CTO · October 2025–March 2026</p>
-    <h3 class="statement r">Execution environments. <span class="dim">Security research.</span></h3>
-    <p class="body r">Worked with the engineering team on software development, reverse engineering and research into Roblox’s client execution environment, including compatibility as the platform changed.</p>
+    <p class="kicker r">Synapse X · CTO · May 2023–October 2024</p>
+    <h3 class="statement r">Roblox exploit execution. <span class="dim">Security research.</span></h3>
+    <p class="body r">Joined the team at 12 and served as CTO. Collaborated on software development, reverse engineering and exploit research: analyzing Roblox’s client execution environment, investigating client-side vulnerabilities and maintaining compatibility as the platform evolved.</p>
     <div class="stats two r"><div class="card stat"><b>8.5M+</b><span>reported project downloads</span></div><div class="card stat"><b>1.7M+</b><span>reported authorized users</span></div></div>
-    <div class="proof-links left r"><a class="go" href="https://x.com/4Lulzy/status/2105738514021437881" target="_blank" rel="noopener noreferrer">Project reference ↗</a><a class="go" href="https://x.synapse.to" target="_blank" rel="noopener noreferrer">Project website ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/details/projects/" target="_blank" rel="noopener noreferrer">LinkedIn project details ↗</a></div>
+    <div class="proof-links left r"><a class="go" href="https://x.com/4Lulzy/status/2105738514021437881" target="_blank" rel="noopener noreferrer">Project reference ↗</a><a class="go" href="https://x.synapse.to" target="_blank" rel="noopener noreferrer">Shutdown message ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/details/projects/" target="_blank" rel="noopener noreferrer">LinkedIn project details ↗</a></div>
   </div>
 
   <div class="slide">
-    <p class="kicker r">Child safety, January to April 2025</p>
+    <p class="kicker r">EASI Child-Safety &amp; Cross-Experience Ban System · March–May 2025</p>
     <h3 class="statement r">Built to <span class="glow">keep kids safe.</span></h3>
-    <p class="body r">I helped connect Roblox games to <a href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">EASI</a>’s moderation database: screening joining players, enforcing bans and escalating evidence to Roblox.</p>
-    <dl class="project-notes r"><div><dt>Scale</dt><dd>500K+ reported account bans across 14K+ Roblox experiences.</dd></div><div><dt>Contribution</dt><dd>Moderation database integration, structured incident records and evidence routing with Ruben Sim and the EASI reporting network.</dd></div></dl>
+    <p class="body r">I helped build and integrate a shared child-safety system for Roblox developers, connecting participating games to <a href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">EASI</a>’s moderation database: screening joining accounts, enforcing bans and generating structured incident records for review.</p>
+    <dl class="project-notes r"><div><dt>Scale</dt><dd>500K+ reported account bans across 14K+ Roblox experiences.</dd></div><div><dt>Contribution</dt><dd>Worked with Ruben Sim and the EASI reporting network to route account details, behavioral evidence and supporting records for investigation and escalation through Roblox’s official reporting channels.</dd></div></dl>
     <div class="proof-links left r"><a class="go" href="https://x.com/ModForDummies/status/1968072010778759389" target="_blank" rel="noopener noreferrer">What EASI is ↗</a><a class="go" href="https://erpsearcher.com" target="_blank" rel="noopener noreferrer">EASI integration ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/details/projects/" target="_blank" rel="noopener noreferrer">LinkedIn project details ↗</a></div>
   </div>
 
@@ -98,6 +99,13 @@ export const portfolioMarkup = `
     <p class="body r">I contributed to Tiny Lab Studios, an umbrella of Roblox groups with games reaching more than 2.5 billion visits.</p>
     <div class="role-proof-grid tiny-proof r"><figure class="role-proof"><a href="/evidence/tiny-lab-role.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Tiny Lab Studios role screenshot"><img src="/evidence/tiny-lab-role.jpg" alt="Tiny Lab Studios Owners list showing yksansxel and Tw1" width="1240" height="1269" loading="lazy" decoding="async"></a><figcaption>Tiny Lab Studios role screenshot · <a href="/evidence/tiny-lab-role.jpg" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure><figure class="role-proof"><a href="/evidence/tiny-lab-thumbnail.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Tiny Lab Studios thumbnail"><img src="/evidence/tiny-lab-thumbnail.jpg" alt="Smaller uploaded version of the Tiny Lab Studios Owners list" width="156" height="160" loading="lazy" decoding="async"></a><figcaption>Tiny Lab Studios thumbnail · <a href="/evidence/tiny-lab-thumbnail.jpg" target="_blank" rel="noopener noreferrer">Open original ↗</a></figcaption></figure></div>
     <div class="proof-links left r"><a class="go" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Role and evidence on LinkedIn ↗</a><a class="go" href="https://www.roblox.com/communities/35210397/Tiny-Lab-Studios" target="_blank" rel="noopener noreferrer">Tiny Lab Studios ↗</a></div>
+  </div>
+  <div class="slide">
+    <p class="kicker r">Tiny Lab Studios · Recent work</p>
+    <h3 class="statement r">Back to building <span class="glow">games.</span></h3>
+    <p class="body r">As a Tiny Lab Studios co-founder, I shared the launch of Push Party and its first-day growth: 5.5K daily active users and more than 11K welcome badges claimed.</p>
+    <p class="fine r">Launch figures reported in my LinkedIn post. These are activity and badge counts, not a retention measurement.</p>
+    <div class="proof-links left r"><a class="go" href="https://pushparty.io" target="_blank" rel="noopener noreferrer">Play Push Party ↗</a><a class="go" href="https://www.linkedin.com/in/beamed/recent-activity/all/" target="_blank" rel="noopener noreferrer">Launch updates on LinkedIn ↗</a></div>
   </div>
   <div class="slide">
     <p class="kicker r">Hexagon Development Community · December 2023–February 2024</p>
@@ -141,9 +149,16 @@ export const portfolioMarkup = `
     <div class="steps rail three experience-cards r">
       <div class="card step"><em>Dec 2023 – Feb 2024</em><b><a href="https://www.roblox.com/communities/5693735/Hexagon-Development-Community" target="_blank" rel="noopener noreferrer">Technical contributor, Evade</a></b><span>Contract work with Hexagon Development Community using Visual Studio Code and Rojo. <a href="/evidence/evade-role.jpg" target="_blank" rel="noopener noreferrer">Contributor announcement ↗</a></span></div>
       <div class="card step"><em>Sep – Nov 2025</em><b><a href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Industry Expert Consultant, AlphaSights</a></b><span>Recruited at 14 for paid Roblox consulting on game development and monetization strategy.</span></div>
-      <div class="card step"><em>Oct 2022 – May 2025</em><b><a href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Club Live student organizer</a></b><span>Leadership training with the Sacramento County Office of Education and collaboration with 12 nonprofit and commercial organizations.</span></div>
+      <div class="card step"><em>Oct 2022 – May 2025</em><b><a href="#youth-engagement">Student Advisor, Youth Engagement</a></b><span>275 volunteer hours through a school program advising the U.S. Department of Education on student mental health, school safety and substance abuse prevention.</span></div>
     </div>
     <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Full experience ↗</a>
+  </div>
+  <div class="slide" id="youth-engagement">
+    <p class="kicker r">Volunteering · October 2022–May 2025</p>
+    <h3 class="statement r">Student Advisor. <span class="dim">Youth Engagement.</span></h3>
+    <p class="body r">Through a school program, I advised the U.S. Department of Education on student mental health, school safety and substance abuse prevention.</p>
+    <dl class="project-notes r"><div><dt>Commitment</dt><dd>275 hours of volunteer service.</dd></div><div><dt>Focus</dt><dd>Bringing a student perspective to the issues affecting young people at school.</dd></div></dl>
+    <div class="proof-links left r"><a class="go" href="https://www.linkedin.com/in/beamed/details/volunteering-experiences/" target="_blank" rel="noopener noreferrer">LinkedIn volunteer experience ↗</a><a class="go" href="https://www.ed.gov/" target="_blank" rel="noopener noreferrer">U.S. Department of Education ↗</a></div>
   </div>
   <div class="slide">
     <p class="kicker r">Experience · 2025–2026</p>
@@ -158,7 +173,7 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Roblox · May 2022–April 2026</p>
     <h3 class="statement r">Four years <span class="dim">of building and shipping.</span></h3>
-    <p class="body r">Technical multi-venture entrepreneur across games and communities with 12.5B+ visits, 20M+ memberships and 75+ games sold. Now retired from that role and retaining equity interests.</p>
+    <p class="body r">Technical multi-venture entrepreneur across games and communities with 12.5B+ visits, 20M+ memberships and 75+ games sold. That role ended in April 2026; I retain equity interests. More recently, I’ve shared new work as a Tiny Lab Studios co-founder.</p>
     <dl class="project-notes r"><div><dt>Tiny Lab Studios</dt><dd>Technical Contributor and CTO, September 2025–March 2026. An umbrella of Roblox groups with games reaching 2.5B+ visits.</dd></div><div><dt>Hexagon Development Community</dt><dd>Contract Technical Contributor, December 2023–February 2024. Asset-management integration for a community with 7M+ members and 10B+ visits.</dd></div></dl>
     <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Roblox roles and evidence ↗</a>
   </div>
@@ -179,7 +194,7 @@ export const portfolioMarkup = `
   <div class="slide">
     <p class="kicker r">Part two: security, then companies</p>
     <div class="steps rail three r">
-      <div class="card step"><em>2025</em><b>From games to safety</b><span>Child safety in January; execution-environment security research in October.</span></div>
+      <div class="card step"><em>2023–2025</em><b>From games to security and safety</b><span>Synapse X, May 2023–October 2024. EASI child-safety integration, March–May 2025.</span></div>
       <div class="card step"><em>Jul–Sep 2026</em><b>Started building companies</b><span>Vraelis in July, Foremake in September.</span></div>
       <div class="card step"><em>Aug 28, 2026</em><b>YC declined an interview</b><span>Vraelis’s Fall 2026 application wasn’t selected. I kept building.</span></div>
     </div>
