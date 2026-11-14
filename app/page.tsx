@@ -14,7 +14,7 @@ async function isAuthorized() {
 
 export async function generateMetadata(): Promise<Metadata> {
   return await isAuthorized()
-    ? { title: "Unlocked", description: "Executive Partner at Foremake and Founder and CEO of Vraelis." }
+    ? { title: "Unlocked", description: "Founder and CEO of Vraelis, building identity and provenance for physical AI." }
     : { title: "Locked", description: "Private portfolio. Access is shared privately with professional contacts and reviewers." };
 }
 
