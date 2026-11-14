@@ -35,8 +35,8 @@ export const portfolioMarkup = `
     <p class="kicker r">Vraelis · Founder &amp; CEO · July 2026–present</p>
     <h3 class="statement r">AI security for <span class="glow">consequential systems.</span></h3>
     <p class="body r">Cybersecurity for AI in defense, critical infrastructure and autonomous systems. My work spans model integrity, adversarial threats, machine trust and security evidence.</p>
-    <dl class="project-notes r"><div><dt>Shipping</dt><dd>Prompto 0.1.25 for Windows: model-file checks, change detection, saved records and an in-app crystal viewer.</dd></div><div><dt>In development</dt><dd>Contour connects an approved model release to what a receiving runtime reports loading. Its ONNX CPU experiment has internal tests.</dd></div></dl>
-    <div class="proof-links left r"><a class="go" href="https://vraelis.com/" target="_blank" rel="noopener noreferrer">Vraelis ↗</a><a class="go" href="https://vraelis.com/contour" target="_blank" rel="noopener noreferrer">Vraelis Contour ↗</a><a class="go" href="https://vraelis.com/prompto" target="_blank" rel="noopener noreferrer">Vraelis Prompto ↗</a></div>
+    <dl class="project-notes r"><div><dt>Shipping</dt><dd>Prompto 0.1.37 beta, released November 12, 2026: Windows model-file checks, change detection, baseline review and an in-app crystal viewer. Browser checks and command-line tools are also available.</dd></div><div><dt>In development</dt><dd>Contour connects an approved model release to what a receiving runtime reports loading. Its ONNX CPU experiment has internal tests.</dd></div><div><dt>Imprint</dt><dd>Research and product development around geometry, motion and digital evidence for physical systems. Current visual studies explore mechanisms; a public product release has not been announced.</dd></div></dl>
+    <div class="proof-links left r"><a class="go" href="https://vraelis.com/" target="_blank" rel="noopener noreferrer">Vraelis ↗</a><a class="go" href="https://vraelis.com/roadmap" target="_blank" rel="noopener noreferrer">Product roadmap ↗</a><a class="go" href="https://docs.vraelis.com/evidence-and-observations" target="_blank" rel="noopener noreferrer">Contour evidence ↗</a><a class="go" href="https://vraelis.com/download" target="_blank" rel="noopener noreferrer">Prompto downloads ↗</a></div>
   </div>
 
 </section>
@@ -138,9 +138,9 @@ export const portfolioMarkup = `
     <p class="kicker r">Experience beyond my companies</p>
     <h3 class="statement r">Systems, strategy <span class="dim">and leadership.</span></h3>
     <div class="steps rail three experience-cards r">
-      <div class="card step"><em>Dec 2023 – Feb 2024</em><b>Technical contributor, Evade</b><span>Contract work with Hexagon Development Community using Visual Studio Code and Rojo.</span></div>
-      <div class="card step"><em>Sep – Nov 2025</em><b>Industry expert, AlphaSights</b><span>Recruited at 14 for paid Roblox consulting on game development and monetization strategy.</span></div>
-      <div class="card step"><em>Oct 2022 – May 2025</em><b>Club Live student organizer</b><span>Leadership training with the Sacramento County Office of Education and collaboration with 12 nonprofit and commercial organizations.</span></div>
+      <div class="card step"><em>Dec 2023 – Feb 2024</em><b><a href="https://www.roblox.com/communities/5693735/Hexagon-Development-Community" target="_blank" rel="noopener noreferrer">Technical contributor, Evade</a></b><span>Contract work with Hexagon Development Community using Visual Studio Code and Rojo. <a href="/evidence/evade-role.jpg" target="_blank" rel="noopener noreferrer">Contributor announcement ↗</a></span></div>
+      <div class="card step"><em>Sep – Nov 2025</em><b><a href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Industry expert, AlphaSights</a></b><span>Recruited at 14 for paid Roblox consulting on game development and monetization strategy.</span></div>
+      <div class="card step"><em>Oct 2022 – May 2025</em><b><a href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Club Live student organizer</a></b><span>Leadership training with the Sacramento County Office of Education and collaboration with 12 nonprofit and commercial organizations.</span></div>
     </div>
     <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Full experience ↗</a>
   </div>
@@ -148,9 +148,9 @@ export const portfolioMarkup = `
     <p class="kicker r">Experience · 2025–2026</p>
     <h3 class="statement r">From operations <span class="dim">to building Vraelis.</span></h3>
     <div class="steps rail three experience-cards r">
-      <div class="card step"><em>May–July 2026 · Remote</em><b>Quality Assurance Manager · Do Big Studios</b><span>Transferred from Quataun. Studio portfolio: 38B visits and 145M+ members. Left to build Vraelis.</span></div>
-      <div class="card step"><em>April–May 2026 · Remote</em><b>Operations Manager · Quataun</b><span>Joined after retiring from active Roblox entrepreneurship. Company portfolio: 5.5B+ visits and 19M+ members.</span></div>
-      <div class="card step"><em>December 2025–January 2026 · California · Remote</em><b>Research Intern · Analog Devices</b><span>Internship researching the design portion of circuit testing and component analysis.</span></div>
+      <div class="card step"><em>May–July 2026 · Remote</em><b>Quality Assurance Manager · Do Big Studios</b><span>Transferred from Quataun. Studio portfolio: 38B visits and 145M+ members. Left to build Vraelis. <a href="/evidence/secretverse-role.jpg" target="_blank" rel="noopener noreferrer">QA role screenshot ↗</a></span></div>
+      <div class="card step"><em>April–May 2026 · Remote</em><b>Operations Manager · Quataun</b><span>Joined after retiring from active Roblox entrepreneurship. Company portfolio: 5.5B+ visits and 19M+ members. <a href="/evidence/quataun-role.jpg" target="_blank" rel="noopener noreferrer">Operations role screenshot ↗</a></span></div>
+      <div class="card step"><em>December 2025–January 2026 · California · Remote</em><b><a href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Research Intern · Analog Devices</a></b><span>Internship researching the design portion of circuit testing and component analysis.</span></div>
     </div>
     <a class="go r" href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Roles and evidence on LinkedIn ↗</a>
   </div>
@@ -179,7 +179,7 @@ export const portfolioMarkup = `
     <p class="kicker r">Part two: security, then companies</p>
     <div class="steps rail three r">
       <div class="card step"><em>2025</em><b>From games to safety</b><span>Child safety in January; execution-environment security research in October.</span></div>
-      <div class="card step"><em>Jul 2026</em><b>Started building companies</b><span>Vraelis in July, Foremake in September.</span></div>
+      <div class="card step"><em>Jul–Sep 2026</em><b>Started building companies</b><span>Vraelis in July, Foremake in September.</span></div>
       <div class="card step"><em>Aug 28, 2026</em><b>YC declined an interview</b><span>Vraelis’s Fall 2026 application wasn’t selected. I kept building.</span></div>
     </div>
     <a class="evidence evidence-email r" href="/evidence/yc-email.webp" target="_blank" rel="noopener" aria-label="Open the original YC application email"><img src="/evidence/yc-email.webp" alt="Y Combinator email saying Nishanth’s startup was not selected for an interview, August 28, 2026" width="1707" height="467" loading="lazy" decoding="async"></a>
@@ -191,7 +191,7 @@ export const portfolioMarkup = `
     <p class="kicker r">Who I am</p>
     <h2 class="display r" id="me-title">Born 30 minutes<br><span class="dim">from Roblox HQ.</span></h2>
     <p class="body r">Born in Mountain View; raised in Northern California. I live in Folsom now.</p>
-    <p class="body r">Vista del Lago High School, class of 2029. Pre-calculus, honors chemistry and Foremake.</p>
+    <p class="body r"><a href="https://www.linkedin.com/in/beamed/details/education/" target="_blank" rel="noopener noreferrer">Vista del Lago High School, class of 2029</a>. Pre-calculus, honors chemistry and Foremake.</p>
     <p class="body r">I still play Roblox. Away from the keyboard, I’m with friends.</p>
   </div>
 
@@ -213,7 +213,7 @@ export const portfolioMarkup = `
   <div class="slide center last">
     <h3 class="quote r">Get in touch.</h3>
     <a class="contact-mail r" href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
-    <div class="links r"><a href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/sansxelt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/fwnishy" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox ↗</a><a href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a></div>
+    <div class="links r"><a href="https://www.linkedin.com/in/beamed/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/sansxelt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/fwnishy" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://create.roblox.com/talent/creators/5715923454" target="_blank" rel="noopener noreferrer">Roblox ↗</a><a href="https://foremake.com/" target="_blank" rel="noopener noreferrer">Foremake ↗</a><a href="https://vraelis.com/" target="_blank" rel="noopener noreferrer">Vraelis ↗</a><a href="https://www.linkedin.com/in/beamed/details/projects/" target="_blank" rel="noopener noreferrer">Projects ↗</a><a href="https://www.linkedin.com/in/beamed/details/experience/" target="_blank" rel="noopener noreferrer">Experience ↗</a></div>
   </div>
 </section>
 </main>
